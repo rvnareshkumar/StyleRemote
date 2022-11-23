@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun hashCode(): Int {
-        return super.hashCode()
+        val a = 10
+        val b = 20
+        return a + b
     }
 }
