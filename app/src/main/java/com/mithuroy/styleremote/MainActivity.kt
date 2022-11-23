@@ -10,4 +10,8 @@ class MainActivity : AppCompatActivity() {
         // This is to check git
         // Another comment
     }
+
+    override fun hashCode(): Int {
+        return super.hashCode()
+    }
 }
