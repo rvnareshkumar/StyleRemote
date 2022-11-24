@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun hashCode(): Int {
-        return e
+        return 5
     }
 }
